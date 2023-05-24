@@ -1,0 +1,77 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  body {
+    background-image: url("images/faq-accordeon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  .container {
+    background-color: rgb(10, 27, 184);
+    max-width: 600px;
+    padding: 10px 20px 20px;
+    border-radius: 12px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+  }
+  
+  h1 {
+    text-align: center;
+    top: 50px;
+    position: relative;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
+  }
+
+    h2 {
+        text-align: center;
+        position: relative;
+        font-size: 2rem;
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+    
+    }
+  
+  .container h2 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0 20px 0;
+    color: white;
+  }
+  
+  button {
+    background: rgb(211, 216, 253);
+    color: rgb(10, 27, 184);
+    border: 2px solid rgb(10, 27, 184);
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  
+  section div,
+  section p {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 0px;
+  }
+  
+  section p {
+    padding-bottom: 20px;
+  }
+  
+  section > div.closed {
+    margin-bottom: 20px;
+  }
+  
